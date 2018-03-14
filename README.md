@@ -11,3 +11,5 @@ This project contain four sub-projects :
 All the sub-projects can be built and used individually or they can be built by building the aem-communities-extensions reactor project to build all of them in one go.
 The installation can be done individually or via uber content package created at /content/target/. Configuration of each of the projects, as per directions in respective Readme,
 need to be done individually.
+
+IMPORTANT : Use branch master for AEM 6.4 and/or greater and branch 6.3 for AEM 6.3 and/or smaller
