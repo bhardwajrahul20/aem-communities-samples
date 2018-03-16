@@ -16,6 +16,8 @@ Installing the sample
 
 * Use the package manager at http://[server]/crx/packmgr/index.jsp and upload the zip file found at *content/target*
 * Install the package
+* Add Watchwords path in AEM Communities Sentiment Process at http://[server]/system/console/configMgr by default the negative and positive paths are located at /libs/settings/community/watchwords/default.
+![Screenshot](AEM_Communities_Sentiment_Process.JPG)
 * Configure the AutoModeration component at http://[server]/system/console/configMgr - Search for AEM Communities Auto Moderation(>=6.4) or automoderation(<6.4)
 * Add ProfanityFilter in the list of Automoderaion Sequences
 ![Screenshot](screenshot.png)
